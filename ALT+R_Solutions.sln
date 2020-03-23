@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29102.190
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Prison_database", "Prison_database\Prison_database.sqlproj", "{31820393-674C-4FA5-85F5-8DCF04510D93}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Prison_database", "..\..\..\Desktop\Backup Business Systems\Prison_database\Prison_database.sqlproj", "{31820393-674C-4FA5-85F5-8DCF04510D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALT+R_Management_Library", "ALT+R_Management_Library\ALT+R_Management_Library.csproj", "{25271A64-5974-4FBB-B158-8BCF64AC4B2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALT+R_Management_Library", "..\..\..\Desktop\Backup Business Systems\ALT+R_Management_Library\ALT+R_Management_Library.csproj", "{25271A64-5974-4FBB-B158-8BCF64AC4B2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALT+R_WebApi", "..\..\..\Desktop\Backup Business Systems\ALT+R_WebApi\ALT+R_WebApi.csproj", "{C8EB4726-38A9-4759-9CBA-175F293DE87D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALT+R_DB_Manager", "..\..\..\Desktop\Backup Business Systems\ALT+R_DB_Manager\ALT+R_DB_Manager.csproj", "{9809A096-F63D-4993-B58D-600AE0A436DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,14 @@ Global
 		{25271A64-5974-4FBB-B158-8BCF64AC4B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25271A64-5974-4FBB-B158-8BCF64AC4B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25271A64-5974-4FBB-B158-8BCF64AC4B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8EB4726-38A9-4759-9CBA-175F293DE87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EB4726-38A9-4759-9CBA-175F293DE87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EB4726-38A9-4759-9CBA-175F293DE87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EB4726-38A9-4759-9CBA-175F293DE87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9809A096-F63D-4993-B58D-600AE0A436DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9809A096-F63D-4993-B58D-600AE0A436DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9809A096-F63D-4993-B58D-600AE0A436DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9809A096-F63D-4993-B58D-600AE0A436DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
